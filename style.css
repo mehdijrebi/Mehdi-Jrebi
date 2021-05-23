@@ -163,3 +163,32 @@ header.sticky ul li a{
     color: black;
     
 }
+.services{
+    background: #111;
+
+}
+.heading.white p{
+    color: white;
+}
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services .content .servicesBx{
+    color: white;
+    background: #161616;
+    margin: 10px 15px;
+    padding: 30px 15px;
+    text-align: center;
+    max-width: 360px;
+}
+.services .content .servicesBx:hover{
+    border-bottom: 2px solid #009e66;
+    cursor: pointer;
+}
+.services .content .servicesBx .fa{
+    color: #009e66;
+
+}
