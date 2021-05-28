@@ -1,57 +1,68 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-section{
+
+section {
 
     padding: 80px;
 }
-.banner{
+
+.banner {
     position: relative;
     min-height: 100vh;
-    align-items: center;
-    background: #111 ;
-    /* background:url(img/mypic.png) ;
+    background: #111;
+    background: url(img/mahdi-final.jpg);
     background-size: cover;
-    background-position:right ; */
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.banner h2{
+
+.banner h2 {
     font-size: 2.5em;
     color: #444;
     font-weight: 300;
     line-height: 1.5em;
 }
-.banner h2 span{
+
+.banner h2 span {
     font-size: 1.2em;
     color: #efefef;
-    
+
 }
-.banner h3{
+
+.banner h3 {
     font-weight: 500;
     color: #fff;
     font-size: 1.5em;
 }
-.content-home{
+
+.content-home {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
-.propic-home{
+
+.propic-home {
     margin-top: 50px;
     margin-right: 200px;
     width: 500px;
     height: 550px;
     border-radius: 30px;
 }
-.btn{
+
+.btn {
     position: relative;
     background: #009e66;
     display: inline-block;
-    color:#000;
+    color: #000;
     margin-top: 20px;
     padding: 10px 30px;
     text-decoration: none;
@@ -61,62 +72,75 @@ section{
     font-size: 18px;
 
 }
-.heading{
+
+.heading {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-    color:#111;
+    color: #111;
 }
-.heading p{
+
+.heading p {
     font-style: italic;
     font-size: 14px;
 }
-.heading h2{
+
+.heading h2 {
     font-size: 3em;
     color: #009e66;
 }
-.content{
+
+.content {
     display: flex;
     justify-content: space-between;
 
 }
-.contentBx{
+
+.contentBx {
     padding-left: 40px;
     text-align: justify;
 }
-.propic{
+
+.propic {
     width: 300px;
     height: 350px;
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
 }
-.contentBx h2{
+
+.contentBx h2 {
     font-weight: 200;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.heading.bottom{
+
+.heading.bottom {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
-.btn.round{
+
+.btn.round {
     border-radius: 50px;
 }
-.bt{
+
+.bt {
     margin-top: 20px;
 }
-.w50{
+
+.w50 {
     min-width: 25%;
 }
-img{
+
+img {
     max-width: 100%;
 }
-header{
+
+header {
     position: fixed;
     z-index: 2;
     top: 0;
-    left:0;
+    left: 0;
     width: 100%;
     padding: 40px 100px;
     display: flex;
@@ -126,7 +150,8 @@ header{
 
 
 }
-header .logo{
+
+header .logo {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -134,49 +159,58 @@ header .logo{
     font-weight: 700;
     letter-spacing: 2px;
 }
-header ul{
+
+header ul {
     position: relative;
     display: flex;
 
 }
-header ul li{
+
+header ul li {
     list-style-type: none;
     position: relative;
 
 }
+
 header ul li a {
     position: relative;
     display: inline-block;
     margin: 0 15px;
-    text-decoration:none;
+    text-decoration: none;
     color: #fff;
 
 }
-header.sticky{
+
+header.sticky {
     background: #fff;
-    padding:20px 100px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 
 }
+
 header.sticky .logo,
-header.sticky ul li a{
+header.sticky ul li a {
     color: black;
-    
+
 }
-.services{
+
+.services {
     background: #111;
 
 }
-.heading.white p{
+
+.heading.white p {
     color: white;
 }
-.services .content{
+
+.services .content {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.services .content .servicesBx{
+
+.services .content .servicesBx {
     color: white;
     background: #161616;
     margin: 10px 15px;
@@ -184,11 +218,13 @@ header.sticky ul li a{
     text-align: center;
     max-width: 360px;
 }
-.services .content .servicesBx:hover{
+
+.services .content .servicesBx:hover {
     border-bottom: 2px solid #009e66;
     cursor: pointer;
 }
-.services .content .servicesBx .fa{
+
+.services .content .servicesBx .fa {
     color: #009e66;
 
 }
