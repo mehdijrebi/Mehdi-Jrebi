@@ -11790,7 +11790,7 @@ a.text-dark:focus {
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #fff;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.8;
   font-weight: 400;
   color: #999999;
@@ -13473,6 +13473,12 @@ textarea.form-control {
   background-position: center center;
 }
 
+.img-work {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .image-popup {
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
@@ -14077,6 +14083,15 @@ textarea.form-control {
   transition: opacity 0.4s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
+}
+
+.project_title {
+  font-size: 28px !important;
+}
+
+.project_sub_title {
+  font-size: 28px !important;
+  color: white !important;
 }
 
 #ftco-loader .circular {
